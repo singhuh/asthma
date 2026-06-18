@@ -1,0 +1,79 @@
+body {
+  font-family: "Segoe UI", "Gill Sans MT", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.65;
+  color: #213547;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: #133b5c;
+}
+
+.hero-block {
+  margin: 0 0 1.5rem 0;
+  padding: 1.5rem 1.75rem;
+  border-radius: 18px;
+  background:
+    radial-gradient(circle at top right, rgba(11, 114, 133, 0.16), transparent 34%),
+    linear-gradient(135deg, #f7fbfc 0%, #eef6f8 100%);
+  border: 1px solid #d7e6eb;
+}
+
+.hero-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0b7285;
+  margin-bottom: 0.35rem;
+}
+
+.hero-title {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  font-size: 2.35rem;
+}
+
+.hero-text {
+  margin: 0;
+  font-size: 1.18rem;
+  max-width: 62rem;
+}
+
+.note-block {
+  margin: 1rem 0 1.75rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 5px solid #b35c1e;
+  background: #fff8f1;
+  border-radius: 10px;
+}
+
+.nav-pills > li > a {
+  border-radius: 999px;
+  margin-right: 0.4rem;
+  font-weight: 600;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background-color: #0b7285;
+}
+
+.tocify {
+  border-radius: 12px;
+  border: 1px solid #dbe5ea;
+}
+
+pre, code {
+  font-family: "Consolas", "Source Code Pro", monospace;
+}
+
+pre {
+  border-radius: 12px;
+  border: 1px solid #e1e8ed;
+}
+
+table.dataTable tbody tr:hover {
+  background-color: rgba(11, 114, 133, 0.05);
+}
